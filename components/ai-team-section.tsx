@@ -256,7 +256,7 @@ export function AITeamSection() {
                   <p className="text-slate-800 font-medium text-sm lg:text-base">
                     "Le taux de réussite de nos étudiants a augmenté de 35% depuis que nous avons mis en place notre programme de support personnalisé. Ils peuvent apprendre à leur rythme et obtenir de l'aide quand ils en ont besoin."
                   </p>
-                  <p className="text-xs lg:text-sm text-slate-600 mt-2">— Karim Ben Ahmed, Directeur Pédagogique MBSkills</p>
+                  <p className="text-xs lg:text-sm text-slate-600 mt-2">— Safa Kaabi, Directeur MBSkills</p>
                 </div>
               </div>
             </div>
