@@ -1,8 +1,10 @@
 import { GlassmorphismNav } from "@/components/glassmorphism-nav"
 import { HeroSection } from "@/components/hero-section"
 import { ProblemSolutionSection } from "@/components/problem-solution-section"
+import { BootcampsHighlightSection } from "@/components/bootcamps-highlight-section"
 import Aurora from "@/components/Aurora"
 import { FeaturesSection } from "@/components/features-section"
+import { JourneesSection } from "@/components/journees-section"
 import { AITeamSection } from "@/components/ai-team-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { ROICalculatorSection } from "@/components/roi-calculator-section"
@@ -20,7 +22,9 @@ export default function HomePage() {
           <GlassmorphismNav />
           <HeroSection />
           <ProblemSolutionSection />
+          <BootcampsHighlightSection />
           <FeaturesSection />
+          <JourneesSection />
           <AITeamSection />
           <TestimonialsSection />
           <ROICalculatorSection />
