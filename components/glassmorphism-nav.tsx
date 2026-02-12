@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 const navigation = [
-  { name: "Formations", href: "#features" },
+  { name: "Formation", href: "/formation" },
   { name: "Technologies", href: "#ai-team" },
   { name: "Certifications", href: "#testimonials" },
   { name: "Carrières", href: "/careers" },
