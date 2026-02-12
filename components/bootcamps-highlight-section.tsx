@@ -89,7 +89,7 @@ export function BootcampsHighlightSection() {
                       />
                     </div>
                   ))}
-                </div>
+                </div> 
               )}
               <div className="p-4 sm:p-6 flex flex-wrap items-center justify-between gap-3">
                 <p className="text-white/80 text-sm flex-1 min-w-0">{bootcamp.shortDescription}</p>
