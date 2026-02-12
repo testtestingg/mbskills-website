@@ -166,20 +166,20 @@ export function ProblemSolutionSection() {
           }`}
         >
           <div className="text-center bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-4 sm:p-6 hover:bg-white/10 transition-all duration-300">
-            <div className="text-2xl sm:text-3xl font-bold text-white mb-2">85%</div>
-            <p className="text-white/70 text-xs sm:text-sm">Projets pratiques dans nos formations</p>
+            <div className="text-2xl sm:text-3xl font-bold text-white mb-2">94%</div>
+            <p className="text-white/70 text-xs sm:text-sm">Taux de réussite aux certifications</p>
           </div>
           <div className="text-center bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-4 sm:p-6 hover:bg-white/10 transition-all duration-300">
-            <div className="text-2xl sm:text-3xl font-bold text-white mb-2">24/7</div>
-            <p className="text-white/70 text-xs sm:text-sm">Support par nos formateurs et notre IA</p>
+            <div className="text-2xl sm:text-3xl font-bold text-white mb-2">2 500+</div>
+            <p className="text-white/70 text-xs sm:text-sm">Étudiants formés</p>
           </div>
           <div className="text-center bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-4 sm:p-6 hover:bg-white/10 transition-all duration-300">
             <div className="text-2xl sm:text-3xl font-bold text-white mb-2">92%</div>
             <p className="text-white/70 text-xs sm:text-sm">Taux d'emploi après certification</p>
           </div>
           <div className="text-center bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-4 sm:p-6 hover:bg-white/10 transition-all duration-300">
-            <div className="text-2xl sm:text-3xl font-bold text-white mb-2">∞</div>
-            <p className="text-white/70 text-xs sm:text-sm">Accès aux mises à jour du contenu</p>
+            <div className="text-2xl sm:text-3xl font-bold text-white mb-2">24/7</div>
+            <p className="text-white/70 text-xs sm:text-sm">Support formateurs et IA</p>
           </div>
         </div>
 
