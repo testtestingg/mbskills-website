@@ -32,44 +32,44 @@ export function TestimonialsSection() {
 
   const testimonials = [
     {
-      text: "Je suis passé de développeur junior à senior en seulement 6 mois grâce aux formations MBSkills. Mon salaire a augmenté de 40%.",
-      name: "Youssef Ben Ali",
-      role: "Développeur Full Stack",
-    },
-    {
-      text: "Le support 24/7 de MBSkills m'a permis de progresser à mon rythme. J'ai obtenu ma certification en data science avec distinction.",
-      name: "Mariem Touati",
-      role: "Data Scientist",
-    },
-    {
-      text: "Grâce à MBSkills, j'ai pu me reconvertir dans le développement web après 10 ans dans un autre domaine. Le taux d'emploi est de 92% !",
-      name: "Mohamed Sfaxi",
-      role: "Développeur Web",
-    },
-    {
-      text: "L'approche pratique des formations MBSkills m'a permis d'acquérir des compétences concrètes immédiatement applicables en entreprise.",
-      name: "Sarra Kallel",
-      role: "Chef de Projet Digital",
-    },
-    {
-      text: "Les formateurs de MBSkills sont des experts du secteur qui partagent leur expérience réelle. J'ai appris plus en 3 mois qu'en 2 ans d'université.",
-      name: "Amine Trabelsi",
-      role: "Ingénieur Logiciel",
-    },
-    {
-      text: "MBSkills m'a offert une formation complète en cybersécurité. J'ai décroché un CDI dans une entreprise du CAC 40 juste après la certification.",
+      text: "MBSkills m'a offert une formation complète en cybersécurité. J'ai décroché un CDI dans une entreprise du CAC 40 juste après la certification. Un vrai tremplin.",
       name: "Fatma Baccouche",
       role: "Expert en Cybersécurité",
     },
     {
-      text: "La flexibilité des formations MBSkills m'a permis de me former tout en travaillant. J'ai pu changer de carrière sans perdre mon revenu.",
-      name: "Walid Jaziri",
-      role: "Développeur Mobile",
+      text: "Grâce à MBSkills, j'ai pu me reconvertir dans le développement web après 10 ans dans un autre domaine. Le taux d'emploi parle de lui-même : j'en suis la preuve.",
+      name: "Mohamed Sfaxi",
+      role: "Développeur Web",
     },
     {
-      text: "Le réseau d'entreprises partenaires de MBSkills m'a permis de trouver un stage rapidement. J'ai été embauché avant même la fin de ma formation.",
+      text: "Les formateurs sont des experts du secteur qui partagent leur expérience réelle. J'ai appris plus en 3 mois qu'en 2 ans d'université. Formation dense et appliquée.",
+      name: "Amine Trabelsi",
+      role: "Ingénieur Logiciel",
+    },
+    {
+      text: "Le support 24/7 m'a permis de progresser à mon rythme. J'ai obtenu ma certification en data science avec distinction. Je recommande sans hésiter.",
+      name: "Mariem Touati",
+      role: "Data Scientist",
+    },
+    {
+      text: "Je suis passé de développeur junior à senior en seulement 6 mois. Mon salaire a augmenté de 40 %. MBSkills tient ses promesses.",
+      name: "Youssef Ben Ali",
+      role: "Développeur Full Stack",
+    },
+    {
+      text: "Le réseau d'entreprises partenaires m'a permis de trouver un stage rapidement. J'ai été embauchée avant même la fin de ma formation.",
       name: "Khadija Mezni",
       role: "Spécialiste Cloud",
+    },
+    {
+      text: "Mon fils a trouvé sa voie grâce au bootcamp Python. L'équipe est à l'écoute et les projets concrets l'ont motivé jusqu'à son premier emploi.",
+      name: "Parent d'étudiant",
+      role: "Témoignage parent",
+    },
+    {
+      text: "Nous avons inscrit notre fille à la formation Robotique. Progression claire, encadrement sérieux et débouchés réels. Nous sommes ravis du résultat.",
+      name: "Parent d'étudiant",
+      role: "Témoignage parent",
     },
   ]
 
