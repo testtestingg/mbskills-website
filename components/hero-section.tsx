@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import RotatingText from "./RotatingText"
 
@@ -70,9 +71,12 @@ export function HeroSection() {
           <Button
             size="lg"
             className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer relative overflow-hidden"
+            asChild
           >
-            Explorer les Formations
-            <ArrowRight />
+            <Link href="/formation">
+              Explorer les Formations
+              <ArrowRight />
+            </Link>
           </Button>
 
           <Button
