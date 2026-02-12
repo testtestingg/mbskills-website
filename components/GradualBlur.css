@@ -8,7 +8,7 @@
   -webkit-backdrop-filter: inherit;
   backdrop-filter: inherit;
 }
-
+ 
 .gradual-blur {
   isolation: isolate;
 }
