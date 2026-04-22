@@ -6,10 +6,10 @@ import Image from "next/image"
 import Link from "next/link"
 
 const navigation = [
-  { name: "Formation", href: "/formation" },
+  { name: "Formations", href: "/formation" },
+  { name: "À Propos", href: "/a-propos" },
   { name: "Technologies", href: "#ai-team" },
-  { name: "Certifications", href: "#testimonials" },
-  { name: "Carrières", href: "/careers" },
+  { name: "Contact", href: "/contact" },
 ]
 
 export function GlassmorphismNav() {
@@ -137,13 +137,13 @@ export function GlassmorphismNav() {
 
               {/* Desktop CTA Button */}
               <div className="hidden md:block">
-                <button
-                  className="relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-2 rounded-full flex items-center transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group"
-                  onClick={() => scrollToSection("#contact")}
+                <Link
+                  href="/formation"
+                  className="relative bg-white hover:bg-gray-50 text-[#0a1327] font-medium px-6 py-2 rounded-full flex items-center transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group"
                 >
                   <span className="mr-2">Commencer</span>
                   <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
-                </button>
+                </Link>
               </div>
 
               {/* Mobile Menu Button */}
@@ -219,18 +219,19 @@ export function GlassmorphismNav() {
                   ),
                 )}
                 <div className="h-px bg-white/10 my-2" />
-                <button
-                  className={`relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-3 rounded-full flex items-center transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group transform ${
+                <Link
+                  href="/formation"
+                  className={`relative bg-white hover:bg-gray-50 text-[#0a1327] font-medium px-6 py-3 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group transform ${
                     isOpen ? "animate-mobile-menu-item" : ""
                   }`}
                   style={{
                     animationDelay: isOpen ? `${navigation.length * 80 + 150}ms` : "0ms",
                   }}
-                  onClick={() => scrollToSection("#contact")}
+                  onClick={() => setIsOpen(false)}
                 >
                   <span className="mr-2">Commencer</span>
                   <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
-                </button>
+                </Link>
               </div>
             </div>
           </div>

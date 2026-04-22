@@ -122,9 +122,9 @@ export function HeroSection() {
           <p className="text-sm text-white mb-6">Compétences que nous enseignons</p>
           <div className="relative overflow-hidden w-full max-w-sm mx-auto">
             {/* Left blur fade */}
-            <div className="absolute left-0 top-0 w-8 h-full bg-gradient-to-r from-black to-transparent z-10 pointer-events-none"></div>
+            <div className="absolute left-0 top-0 w-8 h-full bg-gradient-to-r from-[#0a1327] to-transparent z-10 pointer-events-none"></div>
             {/* Right blur fade */}
-            <div className="absolute right-0 top-0 w-8 h-full bg-gradient-to-l from-black to-transparent z-10 pointer-events-none"></div>
+            <div className="absolute right-0 top-0 w-8 h-full bg-gradient-to-l from-[#0a1327] to-transparent z-10 pointer-events-none"></div>
             <div className="flex items-center gap-6 opacity-60 animate-slide-left-mobile">
               <div className="flex items-center gap-6 whitespace-nowrap">
                 <div className="text-sm font-semibold">Développement Web</div>
