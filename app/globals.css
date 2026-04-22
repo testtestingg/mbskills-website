@@ -3,74 +3,84 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.05 0 0);
+  /* MBSkills brand palette — navy blue from logo */
+  --brand-navy-950: #060d1b;
+  --brand-navy-900: #0a1327;
+  --brand-navy-800: #0f1e36;
+  --brand-navy-700: #122138;
+  --brand-navy-600: #1a2f4f;
+  --brand-navy-500: #24406b;
+  --brand-accent: #04a3fe;
+  --brand-accent-soft: #3ab5fe;
+
+  --background: #0a1327;
   --foreground: oklch(0.98 0 0);
-  --card: oklch(0.08 0 0);
+  --card: #0f1e36;
   --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.08 0 0);
+  --popover: #0f1e36;
   --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.7 0.15 142);
-  --primary-foreground: oklch(0.05 0 0);
-  --secondary: oklch(0.15 0 0);
+  --primary: #04a3fe;
+  --primary-foreground: #0a1327;
+  --secondary: #122138;
   --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.12 0 0);
-  --muted-foreground: oklch(0.6 0 0);
-  --accent: oklch(0.15 0 0);
+  --muted: #122138;
+  --muted-foreground: oklch(0.72 0.02 240);
+  --accent: #122138;
   --accent-foreground: oklch(0.98 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.2 0 0);
-  --input: oklch(0.15 0 0);
-  --ring: oklch(0.7 0.15 142);
-  --chart-1: oklch(0.7 0.15 142);
+  --border: rgba(255, 255, 255, 0.12);
+  --input: #122138;
+  --ring: #04a3fe;
+  --chart-1: #04a3fe;
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.5 0.07 227.392);
   --chart-4: oklch(0.8 0.189 84.429);
   --chart-5: oklch(0.75 0.188 70.08);
   --radius: 0.75rem;
-  --sidebar: oklch(0.08 0 0);
+  --sidebar: #0f1e36;
   --sidebar-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.7 0.15 142);
-  --sidebar-primary-foreground: oklch(0.05 0 0);
-  --sidebar-accent: oklch(0.15 0 0);
+  --sidebar-primary: #04a3fe;
+  --sidebar-primary-foreground: #0a1327;
+  --sidebar-accent: #122138;
   --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.2 0 0);
-  --sidebar-ring: oklch(0.7 0.15 142);
+  --sidebar-border: rgba(255, 255, 255, 0.12);
+  --sidebar-ring: #04a3fe;
 }
 
 .dark {
-  --background: oklch(0.05 0 0);
+  --background: #0a1327;
   --foreground: oklch(0.98 0 0);
-  --card: oklch(0.08 0 0);
+  --card: #0f1e36;
   --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.08 0 0);
+  --popover: #0f1e36;
   --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.7 0.15 142);
-  --primary-foreground: oklch(0.05 0 0);
-  --secondary: oklch(0.15 0 0);
+  --primary: #04a3fe;
+  --primary-foreground: #0a1327;
+  --secondary: #122138;
   --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.12 0 0);
-  --muted-foreground: oklch(0.6 0 0);
-  --accent: oklch(0.15 0 0);
+  --muted: #122138;
+  --muted-foreground: oklch(0.72 0.02 240);
+  --accent: #122138;
   --accent-foreground: oklch(0.98 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.2 0 0);
-  --input: oklch(0.15 0 0);
-  --ring: oklch(0.7 0.15 142);
-  --chart-1: oklch(0.7 0.15 142);
+  --border: rgba(255, 255, 255, 0.12);
+  --input: #122138;
+  --ring: #04a3fe;
+  --chart-1: #04a3fe;
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.5 0.07 227.392);
   --chart-4: oklch(0.8 0.189 84.429);
   --chart-5: oklch(0.75 0.188 70.08);
-  --sidebar: oklch(0.08 0 0);
+  --sidebar: #0f1e36;
   --sidebar-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.7 0.15 142);
-  --sidebar-primary-foreground: oklch(0.05 0 0);
-  --sidebar-accent: oklch(0.15 0 0);
+  --sidebar-primary: #04a3fe;
+  --sidebar-primary-foreground: #0a1327;
+  --sidebar-accent: #122138;
   --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.2 0 0);
-  --sidebar-ring: oklch(0.7 0.15 142);
+  --sidebar-border: rgba(255, 255, 255, 0.12);
+  --sidebar-ring: #04a3fe;
 }
 
 @theme inline {
@@ -126,6 +136,41 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-color: #0a1327;
+  }
+}
+
+/* Brand utility classes */
+@layer utilities {
+  .bg-brand-navy {
+    background-color: #0a1327;
+  }
+  .bg-brand-navy-deep {
+    background-color: #060d1b;
+  }
+  .bg-brand-navy-surface {
+    background-color: #0f1e36;
+  }
+  .bg-brand-navy-elevated {
+    background-color: #122138;
+  }
+  .text-brand-accent {
+    color: #04a3fe;
+  }
+  .border-brand-accent {
+    border-color: #04a3fe;
+  }
+  .from-brand-accent {
+    --tw-gradient-from: #04a3fe;
+  }
+  .to-brand-navy {
+    --tw-gradient-to: #0a1327;
+  }
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, #0a1327 0%, #122138 50%, #0f1e36 100%);
+  }
+  .bg-brand-radial {
+    background: radial-gradient(ellipse at top, #122138 0%, #0a1327 60%, #060d1b 100%);
   }
 }
 

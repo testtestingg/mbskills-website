@@ -20,28 +20,28 @@ const footerLinks: FooterSection[] = [
   {
     label: "Formations",
     links: [
-      { title: "Développement Web", href: "/formations/developpement-web" },
-      { title: "Data Science", href: "/formations/data-science" },
-      { title: "Intelligence Artificielle", href: "/formations/intelligence-artificielle" },
-      { title: "Certifications", href: "/certifications" },
+      { title: "Robotique", href: "/formation#category-robotique" },
+      { title: "Digital Marketing", href: "/formation#category-digital-marketing" },
+      { title: "Intelligence Artificielle", href: "/formation#category-ai" },
+      { title: "Développement Personnel", href: "/formation#category-developpement-personnel" },
     ],
   },
   {
     label: "Centre",
     links: [
       { title: "À Propos", href: "/a-propos" },
+      { title: "Partenariat IHET", href: "/a-propos#ihet" },
       { title: "Contact", href: "/contact" },
-      { title: "Politique de Confidentialité", href: "/confidentialite" },
-      { title: "Conditions Générales", href: "/conditions" },
+      { title: "Toutes les formations", href: "/formation" },
     ],
   },
   {
     label: "Ressources",
     links: [
-      { title: "Blog", href: "/blog" },
-      { title: "Études de Cas", href: "/etudes-de-cas" },
-      { title: "Documentation", href: "/docs" },
-      { title: "Support", href: "/support" },
+      { title: "Blog", href: "#" },
+      { title: "Documentation", href: "#" },
+      { title: "Support", href: "/contact" },
+      { title: "FAQ", href: "/contact" },
     ],
   },
   {
