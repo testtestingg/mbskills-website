@@ -51,7 +51,7 @@ export default function ContactPage() {
       icon: Mail,
       label: "Email",
       value: "contact@mbskills.com",
-      href: "mailto:contact@mbskills.com",
+      href: "mailto:contact@mbschool.tn",
     },
     {
       icon: Phone,
