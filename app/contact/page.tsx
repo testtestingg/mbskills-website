@@ -56,8 +56,8 @@ export default function ContactPage() {
     {
       icon: Phone,
       label: "Téléphone",
-      value: "+216 00 000 000",
-      href: "tel:+21600000000",
+      value: "+216 23 198 118",
+      href: "tel:+21623198118",
     },
     {
       icon: MapPin,

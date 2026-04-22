@@ -131,7 +131,7 @@ export function InscriptionDialog({
                 value={form.telephone}
                 onChange={(e) => handleChange("telephone", e.target.value)}
                 className="bg-white/5 border-white/20 text-white placeholder:text-white/40"
-                placeholder="+216 00 000 000"
+                placeholder="+216 23 198 118"
               />
             </div>
             <div className="space-y-2">
