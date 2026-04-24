@@ -213,7 +213,7 @@ select s.id,
        'Horaires d''ouverture : Lun–Sam, 08h–20h.'
 from public.coworking_spaces s
 on conflict (space_id) do nothing;
-
+ 
 -- =====================================================================
 --  After running this file, set these environment variables in .env.local
 --  (and on Vercel) to let the Next.js app talk to Supabase:
