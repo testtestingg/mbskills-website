@@ -30,6 +30,7 @@ const footerLinks: FooterSection[] = [
     label: "Centre",
     links: [
       { title: "À Propos", href: "/a-propos" },
+      { title: "Coworking", href: "/coworking" },
       { title: "Partenariat IHET", href: "/a-propos#ihet" },
       { title: "Contact", href: "/contact" },
       { title: "Toutes les formations", href: "/formation" },
