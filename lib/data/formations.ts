@@ -83,7 +83,7 @@ export const formations: Formation[] = [
     description:
       "Formation intensive en robotique : électronique, programmation embarquée, capteurs et actionneurs, projets pratiques avec kits et séances en présentiel.",
     poster:
-      "https://images.unsplash.com/photo-1561557944-6e7860c0131b?w=800&q=80",
+      "https://i.ibb.co/RGxL3c8v/Whats-App-Image-2026-04-27-at-18-02-26.jpg",
     duration: "8 semaines",
     level: "Débutant à Intermédiaire",
     category: "robotique",
