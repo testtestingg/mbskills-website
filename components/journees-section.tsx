@@ -11,14 +11,14 @@ const journees = [
     id: "orientation",
     title: "Journée d'Orientation",
     description: "Découvrez nos formations, rencontrez les formateurs et posez toutes vos questions dans une ambiance conviviale.",
-    image: "/images/journee-orientation.jpg",
+    image: "https://i.ibb.co/9kXtZMS4/Whats-App-Image-2026-04-27-at-18-06-07.jpg",
     cta: "En savoir plus",
   },
   {
     id: "olympiade",
     title: "Journée Olympiade",
     description: "Compétitions, défis techniques et moments d'échange pour célébrer les compétences et la communauté MBSkills.",
-    image: "/images/journee-olympiade.jpg",
+    image: "https://i.ibb.co/k2Qv3dVv/Whats-App-Image-2026-04-27-at-18-05-33.jpg",
     cta: "En savoir plus",
   },
 ]
