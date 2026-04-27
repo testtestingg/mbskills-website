@@ -67,7 +67,7 @@ export function HeroSection() {
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 sm:mb-10 animate-fade-in-buttons">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 sm:mb-16 animate-fade-in-buttons">
           <Button
             size="lg"
             className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer relative overflow-hidden"
@@ -80,38 +80,13 @@ export function HeroSection() {
           </Button>
 
           <Button
-            asChild
             variant="outline"
             size="lg"
             className="rounded-full px-8 py-4 text-lg font-medium border-border hover:bg-accent transition-all duration-200 hover:scale-105 group bg-transparent cursor-pointer"
           >
-            <Link href="/coworking">
-              <Play />
-              Découvrir le Coworking
-            </Link>
+            <Play />
+            Voir la Démo
           </Button>
-        </div>
-
-        {/* Coworking micro-pill (new) */}
-        <div className="flex justify-center mb-8 sm:mb-14 animate-fade-in-buttons">
-          <Link
-            href="/coworking"
-            className="group inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/15 hover:border-white/25 text-white/80 hover:text-white text-xs sm:text-sm font-medium transition-all duration-300 hover:scale-[1.02]"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full rounded-full bg-[#04a3fe] opacity-75 animate-ping"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-[#04a3fe]"></span>
-            </span>
-            Nouveau : Espaces coworking, bureaux privés & salles de réunion
-            <svg
-              className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
         </div>
 
         {/* Trust Indicators - Now showing IT skills instead of companies */}
@@ -127,7 +102,6 @@ export function HeroSection() {
                 <div className="text-base sm:text-lg font-semibold">Data Science</div>
                 <div className="text-base sm:text-lg font-semibold">Cloud Computing</div>
                 <div className="text-base sm:text-lg font-semibold">Cybersécurité</div>
-                <div className="text-base sm:text-lg font-semibold text-[#3ab5fe]">Coworking Space</div>
               </div>
               {/* Duplicate for seamless loop */}
               <div className="flex items-center gap-8 whitespace-nowrap">
@@ -138,7 +112,6 @@ export function HeroSection() {
                 <div className="text-base sm:text-lg font-semibold">Data Science</div>
                 <div className="text-base sm:text-lg font-semibold">Cloud Computing</div>
                 <div className="text-base sm:text-lg font-semibold">Cybersécurité</div>
-                <div className="text-base sm:text-lg font-semibold text-[#3ab5fe]">Coworking Space</div>
               </div>
             </div>
           </div>
@@ -161,7 +134,6 @@ export function HeroSection() {
                 <div className="text-sm font-semibold">Data Science</div>
                 <div className="text-sm font-semibold">Cloud Computing</div>
                 <div className="text-sm font-semibold">Cybersécurité</div>
-                <div className="text-sm font-semibold text-[#3ab5fe]">Coworking Space</div>
               </div>
               {/* Duplicate for seamless loop */}
               <div className="flex items-center gap-6 whitespace-nowrap">
@@ -172,7 +144,6 @@ export function HeroSection() {
                 <div className="text-sm font-semibold">Data Science</div>
                 <div className="text-sm font-semibold">Cloud Computing</div>
                 <div className="text-sm font-semibold">Cybersécurité</div>
-                <div className="text-sm font-semibold text-[#3ab5fe]">Coworking Space</div>
               </div>
             </div>
           </div>

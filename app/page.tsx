@@ -2,7 +2,6 @@ import { GlassmorphismNav } from "@/components/glassmorphism-nav"
 import { HeroSection } from "@/components/hero-section"
 import { ProblemSolutionSection } from "@/components/problem-solution-section"
 import { BootcampsHighlightSection } from "@/components/bootcamps-highlight-section"
-import { CoworkingHighlightSection } from "@/components/coworking-highlight-section"
 import Aurora from "@/components/Aurora"
 import { FeaturesSection } from "@/components/features-section"
 import { JourneesSection } from "@/components/journees-section"
@@ -25,7 +24,6 @@ export default function HomePage() {
           <HeroSection />
           <ProblemSolutionSection />
           <BootcampsHighlightSection />
-          <CoworkingHighlightSection />
           <FeaturesSection />
           <JourneesSection />
           <AITeamSection />
