@@ -74,7 +74,7 @@ export function JourneesSection() {
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <Image
-                  src="/placeholder.jpg"
+                  src="https://i.ibb.co/bMfSx5M4/Whats-App-Image-2026-04-27-at-18-05-42.jpg"
                   alt={event.title}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
