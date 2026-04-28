@@ -92,7 +92,7 @@ export const formations: Formation[] = [
     sessionImages: [
       "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80",
       "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=400&q=80",
-      "https://images.unsplash.com/photo-1561557944-6e7860c0131b?w=400&q=80",
+      "https://i.ibb.co/DD1vgJmQ/6a29e82b-af34-49b4-994a-6358762ea238.png",
     ],
   },
   {
