@@ -1,39 +1,39 @@
-import { GlassmorphismNav } from "@/components/glassmorphism-nav"
-import { HeroSection } from "@/components/hero-section"
-import { ProblemSolutionSection } from "@/components/problem-solution-section"
-import { BootcampsHighlightSection } from "@/components/bootcamps-highlight-section"
-import Aurora from "@/components/Aurora"
-import { FeaturesSection } from "@/components/features-section"
-import { JourneesSection } from "@/components/journees-section"
-import { AITeamSection } from "@/components/ai-team-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
-import { ROICalculatorSection } from "@/components/roi-calculator-section"
-import { CTASection } from "@/components/cta-section"
-import { Footer } from "@/components/footer"
-import { IhetPartnerSection } from "@/components/ihet-partner-section"
+/**
+ * Homepage — GoMyCode-style design system.
+ *
+ * Renders all homepage sections in order. Each section is a self-contained
+ * component under /components/home/. All placeholder content lives in
+ * /components/home/site-data.ts — edit that one file to customize the site.
+ *
+ * (The previous homepage composition is preserved at
+ *  /components/home/_legacy-homepage.tsx.bak for reference.)
+ */
+import { Navbar } from "@/components/home/navbar"
+import { HeroSection } from "@/components/home/hero-section"
+import { CourseCategoriesSection } from "@/components/home/course-categories-section"
+import { AiBannerSection } from "@/components/home/ai-banner-section"
+import { PartnersSection } from "@/components/home/partners-section"
+import { StatsSection } from "@/components/home/stats-section"
+import { TestimonialsSection } from "@/components/home/testimonials-section"
+import { InstructorsSection } from "@/components/home/instructors-section"
+import { LeadFormSection } from "@/components/home/lead-form-section"
+import { Footer } from "@/components/home/footer"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-brand-navy overflow-hidden">
-      <main className="min-h-screen relative overflow-hidden">
-        <div className="fixed inset-0 w-full h-full bg-brand-radial">
-          <Aurora colorStops={["#04a3fe", "#1a2f4f", "#04a3fe"]} amplitude={1.1} blend={0.5} speed={0.7} />
-        </div>
-        <div className="relative z-10">
-          <GlassmorphismNav />
-          <HeroSection />
-          <ProblemSolutionSection />
-          <BootcampsHighlightSection />
-          <FeaturesSection />
-          <JourneesSection />
-          <AITeamSection />
-          <IhetPartnerSection />
-          <TestimonialsSection />
-          <ROICalculatorSection />
-          <CTASection />
-          <Footer />
-        </div>
+    <div className="min-h-screen bg-white text-[#111827]">
+      <Navbar />
+      <main>
+        <HeroSection />
+        <CourseCategoriesSection />
+        <AiBannerSection />
+        <PartnersSection />
+        <StatsSection />
+        <TestimonialsSection />
+        <InstructorsSection />
+        <LeadFormSection />
       </main>
+      <Footer />
     </div>
   )
 }

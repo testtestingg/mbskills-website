@@ -84,8 +84,16 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
+  /* Inter is the primary font for the GoMyCode-style design system. */
+  --font-sans: var(--font-inter), system-ui, sans-serif;
   --font-mono: var(--font-geist-mono);
+  /* Design-system brand accent (purple). Override these to use your brand color. */
+  --color-ds-primary: #7c3aed;
+  --color-ds-primary-dark: #6d28d9;
+  --color-ds-ink: #111827;
+  --color-ds-muted: #6b7280;
+  --color-ds-line: #e5e7eb;
+  --color-ds-surface: #f9fafb;
   --font-script: "Dancing Script", cursive;
   --font-handwriting: "Caveat", cursive;
   --color-background: var(--background);
@@ -135,8 +143,47 @@
     overflow-x: hidden;
   }
   body {
-    @apply bg-background text-foreground;
-    background-color: #0a1327;
+    /* GoMyCode-style design system uses a clean white canvas + Inter. */
+    color: #111827;
+    background-color: #ffffff;
+    font-family: var(--font-inter), system-ui, sans-serif;
+  }
+}
+
+/* =====================================================================
+   DESIGN SYSTEM UTILITIES (GoMyCode-style light theme)
+   Used by the homepage components under /components/home/.
+   ===================================================================== */
+@layer utilities {
+  /* Infinite horizontal marquee for the partner-logos strip.
+     The track duplicates its children, so translating -50% loops seamlessly. */
+  .animate-marquee {
+    animation: ds-marquee 32s linear infinite;
+  }
+  .animate-marquee-reverse {
+    animation: ds-marquee 36s linear infinite reverse;
+  }
+  /* Pause the marquee when the user hovers the strip. */
+  .marquee-pause:hover .animate-marquee,
+  .marquee-pause:hover .animate-marquee-reverse {
+    animation-play-state: paused;
+  }
+  /* Hide native scrollbars on horizontal scroll containers (tab bar, etc.). */
+  .ds-no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .ds-no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes ds-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
   }
 }
 
