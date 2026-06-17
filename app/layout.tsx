@@ -5,7 +5,7 @@ import "./globals.css"
 import { PageTransition } from "@/components/page-transition"
 import { NavigationTransition } from "@/components/navigation-transition"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Dancing_Script, Caveat } from "next/font/google"
+import { Dancing_Script, Caveat, Inter } from "next/font/google"
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -19,10 +19,17 @@ const caveat = Caveat({
   display: "swap",
 })
 
+// Inter is the primary UI font for the GoMyCode-style design system.
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+})
+
 export const metadata: Metadata = {
-  title: "MBSkills - Formation Technologique Professionnelle",
+  title: "[BRAND_NAME] - [TAGLINE]",
   description:
-    "Développez vos compétences technologiques avec nos formations pratiques et certifiantes. Accélérez votre carrière dans le développement web, l'intelligence artificielle, la data science et plus.",
+    "[META_DESCRIPTION] Replace this placeholder with your own SEO description describing your tech school, courses, and value proposition.",
   generator: "v0.app",
 }
 
@@ -32,8 +39,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="fr" className="dark">
-      <body className={`font-sans antialiased ${dancingScript.variable} ${caveat.variable}`}>
+    <html lang="en">
+      <body className={`antialiased ${inter.variable} ${dancingScript.variable} ${caveat.variable}`}>
         <Suspense fallback={null}>
           <NavigationTransition />
           <PageTransition>{children}</PageTransition>
