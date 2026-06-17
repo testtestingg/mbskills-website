@@ -18,8 +18,15 @@ import { TestimonialsSection } from "@/components/home/testimonials-section"
 import { InstructorsSection } from "@/components/home/instructors-section"
 import { LeadFormSection } from "@/components/home/lead-form-section"
 import { Footer } from "@/components/home/footer"
+import ComingSoon from "@/components/coming-soon"
 
 export default function HomePage() {
+  const isComingSoon = process?.env?.NEXT_PUBLIC_COMING_SOON === "1"
+
+  if (isComingSoon) {
+    return <ComingSoon />
+  }
+
   return (
     <div className="min-h-screen bg-white text-[#111827]">
       <Navbar />
